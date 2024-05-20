@@ -8,9 +8,9 @@
     
 
     "start": "node src/index.js",
-    "dev": "nodemon src/index.js",
-    "build": "npm install && npm start",
-    "develop": "nodemon src/index.js"
+    "dev": "npx nodemon src/index.js",
+    "build": "npm install && npm dev"
+    
   },
   "author": "",
   "license": "ISC",
