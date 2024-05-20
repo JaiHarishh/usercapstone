@@ -5,18 +5,20 @@
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx nodemon src/index.js",
+    "start": "nodemon src/index.js",
     "dev": "nodemon src/index.js",
-    "build": "npm install && npm start"
-    
+    "build": "npm install && npm install nodemon -g &&npm start"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@netlify/functions": "^2.7.0",
+    "@types/express": "^4.17.21",
     "bcrypt": "^5.1.1",
     "ejs": "^3.1.10",
     "express": "^4.19.2",
     "hbs": "^4.2.0",
-    "mongoose": "^8.3.4"
+    "mongoose": "^8.3.4",
+    "serverless-http": "^3.2.0"
   }
 }
