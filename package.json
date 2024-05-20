@@ -2,12 +2,14 @@
   "name": "login",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/index.js",
+    
+
+    "start": "node index.js",
     "dev": "nodemon src/index.js",
-    "build": "npm install && npm install nodemon -g &&npm start"
+    "build": "npm install && npm start"
   },
   "author": "",
   "license": "ISC",
